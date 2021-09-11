@@ -29,7 +29,3 @@ document.addEventListener("keyup",(e)=>{
 const d = new Date();
 document.querySelector("#header-date").innerHTML = d.getMonth() + "/" + d.getDay() + "/" + d.getFullYear();
 
-const xhr = XMLHttpRequest();
-xhr.open("GET","./js/definitions",false);
-xhr.send();
-console.log(xhr.responseText);

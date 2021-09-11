@@ -1,5 +1,0 @@
-{
-    "basis":["A basis for a subspace W is a set of vectors v1, ...,vk in W such that:","link"],
-    "characteristic polynomial":["The characteristic polynomial of a n by n matrix A is the polynomial in t given by the formula det(A - t*I).","link"],
-    "column space":["The column space of a matrix is the subspace spanned by the columns of the matrix considered as vectors. See also: row space.","link"]
-}
