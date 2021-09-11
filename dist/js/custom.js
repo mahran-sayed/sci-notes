@@ -28,8 +28,8 @@ document.addEventListener("keyup",(e)=>{
 })
 const d = new Date();
 document.querySelector("#header-date").innerHTML = d.getMonth() + "/" + d.getDay() + "/" + d.getFullYear();
-fetch("./js/countries.json").then((response)=>{
-    return response.json();
-}).then((data)=>{
-    console.log(data);
-})
+
+const xhr = XMLHttpRequest();
+xhr.open("GET","./js/definitions",false);
+xhr.send();
+console.log(xhr.responseText);
