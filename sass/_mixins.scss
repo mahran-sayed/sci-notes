@@ -1,0 +1,8 @@
+@mixin grid-item($cstart,$cend,$rstart,$rend,$border:#000,$bgcolor:transparent) {
+    background-color: $bgcolor;
+    border: 3px solid $border;
+    grid-column-start: $cstart;
+    grid-column-end: $cend;
+    grid-row-start: $rstart;
+    grid-row-end: $rend;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/chemistry.css">
+    <title>Linear Algebra</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illum tempora quisquam dolorum eius temporibus
+            inventore quas unde culpa numquam!
+        </div>
+        <h1>Linear Algebra</h1>
+        <div class="header-left">
+            Current Date: <span id="header-date"></span>
+            <br>
+            Written Date: <span id="writtenDate">5/5/2021</span>
+            <br>
+            Written By: <span id="articleAuthor">Mahran Sayed</span>
+            <br>
+            Article ID: <span>245234523</span>
+        </div>
+    </div>
+    <nav id="navbar">
+        <img src="./images/clip.svg" alt="clip_icon" id="navToggler">
+        <ul class="nav-items">
+            <li class="nav-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Chemistry</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Aerospace</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Computer Science</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contentContainer">
+        <div id="item0">
+            <h2>Vector Space Rules</h2>
+            If \(u,v,w \in V \quad \& \quad k \in F \) then V is a <b>Vector Space</b>
+            <br>
+            Addition:
+            <ol>
+                <li>\(u+v \in V\) (Closure)</li>
+                <li>\(u + v = v + u\) (Commutativity)</li>
+                <li>\(u+(v+w) = (u+v)+w\) (Associativity)</li>
+                <li>\(u+O_V = u\) ( \(O_V\) is the zero Vector)</li>
+                <li>\(u+(-u) = O_V\) (\(-u\) is called additive inverse)</li>
+            </ol>
+            Multiplication:
+            <ol>
+                <li>\(ku \in V\) (Closure)</li>
+                <li>\(k(u+v) = ku + kv\)</li>
+                <li>\((k_1 + k_2)u = k_1u+k_2u\) </li>
+                <li>\(k_1(k_2u) = (k_1k_2)u\)</li>
+            </ol>
+            <!-- \( u+ v \in V\)
+            <br>
+            \(u + v = v + u\) -->
+        </div>
+        <div id="item1">
+            <h2>Basic Units</h2>
+        </div>
+        <div id="item2"></div>
+        <div id="item3">
+            <h2>Definitions Engine</h2>
+        </div>
+        <div id="item4"></div>
+        <div id="item5"></div>
+        <div id="item6"></div>
+    </div>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+    <script src="./js/definitions.json"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
