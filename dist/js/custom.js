@@ -28,7 +28,7 @@ document.addEventListener("keyup",(e)=>{
 })
 const d = new Date();
 document.querySelector("#header-date").innerHTML = d.getMonth() + "/" + d.getDay() + "/" + d.getFullYear();
-fetch("./js/definitions.json").then((response)=>{
+fetch("./js/countries.json").then((response)=>{
     return response.json();
 }).then((data)=>{
     console.log(data);
